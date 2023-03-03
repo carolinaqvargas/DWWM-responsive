@@ -43,6 +43,7 @@ nav{
 /* accueil */
 main.home{
   background-image: url(/images/A2-1920.jpg);
+  background-color: rgb(47, 1, 47);
   background-size: cover;
   min-height: 100vh;
 }
