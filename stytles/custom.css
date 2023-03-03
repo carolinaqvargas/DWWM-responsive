@@ -12,16 +12,26 @@ nav{
 }
 
 /* button */
+
 .btn{
   padding: 1rem;
   font-size: x-large;
-  
+  animation: myAnim 1s ease 0s 1 normal both;
+  text-decoration: none;
 }
-button > a{
-text-decoration: none;
-padding: .5rem;
-color: white;
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: scale(0.6);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
 }
+
 .orange{
   background-color: #EE4A24;
   border-color: #EE4A24;
@@ -58,7 +68,6 @@ main.home{
 }
 
 /* temoignages */
-
 .carousel-inner{
   background-color: #0A8896;
   margin-top: 1.3rem;
@@ -75,12 +84,13 @@ padding: 2rem;
 }
 
 /* references */
-
 .references img{
 width: 190px;
 height: auto;
 background-color: rgb(205, 202, 202);
 }
+
+/* contact */
 form{
   background-color: rgb(205, 202, 202) ;
   padding: 2rem;
