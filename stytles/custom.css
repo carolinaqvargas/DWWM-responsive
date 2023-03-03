@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, Gotham, sans-serif;
+  color:#484444;
+   }
+
+nav{
+  background-color:#86BD23;
+}
+#navmenu>ul>li{
+  font-size: 1.5rem;
+  padding-left: 2rem;
+}
+
+/* button */
+.btn{
+  padding: 1rem;
+  font-size: x-large;
+  
+}
+
+.orange{
+  background-color: #EE4A24;
+  border-color: #EE4A24;
+  color: white;
+  --bs-btn-hover-bg:#ea6e53;	
+  --bs-btn-hover-border-color: #ea6e53;
+  
+}              
+
+.pink{
+  background-color: #EC4A7C;
+  border-color: #EC4A7C;
+  color: white;
+  --bs-btn-hover-bg:#d67e9a;	
+  --bs-btn-hover-border-color: #d67e9a;
+}
+
+.yellow{
+  background-color: #F9D10D;
+  border-radius: 20px;
+}
+
+/* accueil */
+main.home{
+  background-image: url(/images/A2-1920.jpg);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+/* formation */
+.buffer{
+  height: 10%;
+}
+
+/* temoignages */
+
+.carousel-inner{
+  background-color: #0A8896;
+  margin-top: 1.3rem;
+  margin-bottom: 2rem;
+  padding: 5% 20% ;
+
+}
+
+.carousel-inner img{
+border-radius: 200px;
+padding: 2rem;
+}
+
+/* references */
+
+.references img{
+width: 190px;
+height: auto;
+background-color: rgb(205, 202, 202);
+}
+form{
+  background-color: rgb(205, 202, 202) ;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
