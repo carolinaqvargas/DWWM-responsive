@@ -68,6 +68,8 @@ main.home{
 }
 
 .carousel-inner img{
+width: 30%;
+height: auto;
 border-radius: 200px;
 padding: 2rem;
 }
