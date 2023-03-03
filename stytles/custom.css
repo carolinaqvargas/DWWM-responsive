@@ -17,14 +17,18 @@ nav{
   font-size: x-large;
   
 }
-
+.btn a{
+text-decoration: none;
+padding: .5rem;
+color: white;
+}
 .orange{
   background-color: #EE4A24;
   border-color: #EE4A24;
   color: white;
   --bs-btn-hover-bg:#ea6e53;	
   --bs-btn-hover-border-color: #ea6e53;
-  
+  --bs-btn-hover-color: white;
 }              
 
 .pink{
@@ -33,6 +37,7 @@ nav{
   color: white;
   --bs-btn-hover-bg:#d67e9a;	
   --bs-btn-hover-border-color: #d67e9a;
+  --bs-btn-hover-color: white;
 }
 
 .yellow{
