@@ -68,19 +68,19 @@ main.home{
 }
 
 /* temoignages */
-.carousel-inner{
-  background-color: #0A8896;
-  margin-top: 1.3rem;
-  margin-bottom: 2rem;
-  padding: 5% 20% ;
 
+.carouselBox .row{
+  background-color: #0A8896;
 }
 
 .carousel-inner img{
-width: 30%;
-height: auto;
+width: 200px;
 border-radius: 200px;
-padding: 2rem;
+}
+
+.carousel-control-next,.carousel-control-prev {
+  width: 5%;
+  color: white;
 }
 
 /* references */
